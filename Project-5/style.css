@@ -1,0 +1,32 @@
+body {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0; /* Remove default margin to ensure full width */
+
+}
+
+.Main-con {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 20vh;
+    width: 100vw;
+    margin-bottom: 10px; /* Add margin between the two divs */
+}
+
+.contan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 100vw;
+    height: 10vh;
+}
+button {
+    padding: 10px 20px; /* Adjust the padding to increase button size */
+    font-size: 16px; /* Adjust the font size as needed */
+}
